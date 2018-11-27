@@ -1,0 +1,101 @@
+.nav-screen-container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #EBF7FD;
+}
+
+.nav-screen-top-bar {
+  width: 100%;
+  height: 80px;
+  position: absolute;
+  top: 0;
+  display: flex;
+  align-items: center;
+}
+
+.nav-screen-top-bar h2 {
+  margin: 0;
+  position: relative;
+  left: 70px;
+  font-size: 30px;
+  padding: 5px 7px;
+}
+
+.nav-screen-top-bar h2:hover {
+  cursor: default;
+  background-color: #393E6F;
+  color: #fff;
+  animation: slide-for-logo 200ms;
+}
+
+.nav-screen-top-bar span {
+  position: absolute;
+  font-size: 40px;
+  right: 50px;
+}
+
+.nav-items-container {
+  width: 20%;
+  height: 300px;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.nav-items-container h2 {
+  font-size: 60px;
+  font-weight: 800;
+  margin: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.nav-items-container h2:nth-of-type(1):hover {
+  cursor: pointer;
+  background-color: #B82601;
+  color: #fff;
+  animation-name: slide;
+  animation-duration: 200ms;
+  animation-iteration-count: 1;
+  animation-timing-function: linear;
+}
+
+.nav-items-container h2:nth-of-type(2):hover {
+  cursor: pointer;
+  background-color: #3DD2CC;
+  color: #fff;
+  animation-name: slide;
+  animation-duration: 200ms;
+  animation-iteration-count: 1;
+  animation-timing-function: linear;
+}
+
+.nav-items-container h2:nth-of-type(3):hover {
+  cursor: pointer;
+  background-color: #217756;
+  color: #fff;
+  animation-name: slide;
+  animation-duration: 200ms;
+  animation-iteration-count: 1;
+  animation-timing-function: linear;
+}
+
+.nav-screen-burger-menu-spin-animation {
+  animation: burger-menu-spin 400ms
+}
+
+@keyframes slide {
+  from { width: 0px; color: #000; }
+    to { width: 100px; color: #fff; }
+}
+
+@keyframes slide-for-logo {
+  from { height: 0px; color: #000;}
+    to { height: 40px; color: #fff;}
+}
