@@ -29,10 +29,10 @@ class SocialIcons extends Component {
   render() {
     return(
       <div className="contact-screen-social-icons">
-        <span class="fas fa-envelope"></span>
-        <span class="fas fa-github-square"></span>
-        <span class="fas fa-linkedin"></span>
-        <span class="fas fa-facebook"></span>
+        <span className="fas fa-envelope"></span>
+        <span className="fab fa-github-square"></span>
+        <span className="fab fa-linkedin"></span>
+        <span className="fab fa-facebook"></span>
       </div>
     )
   }

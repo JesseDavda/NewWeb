@@ -92,10 +92,10 @@
 
 @keyframes slide {
   from { width: 0px; color: #000; }
-    to { width: 100px; color: #fff; }
+    to { width: auto; color: #fff; }
 }
 
 @keyframes slide-for-logo {
   from { height: 0px; color: #000;}
-    to { height: 40px; color: #fff;}
+    to { height: auto; color: #fff;}
 }
